@@ -37,7 +37,6 @@ export default class Timer extends React.Component<{}, State>  {
     }
 
     render() {
-        console.log("render")
         return (
             <div>
                 <p>{this.getTime()}</p>
